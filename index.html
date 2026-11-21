@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khush Maheshwari — Quantitative Researcher &amp; AI/ML Engineer</title>
+  <meta name="description" content="Portfolio of Khush Maheshwari — Final-Year Undergraduate at IIT Kanpur (B.S. Honours Economics, Minor CSE AI/ML), Quantitative Research Intern (PPO) at Nomura Global Markets." />
+  <meta property="og:title" content="Khush Maheshwari — Quantitative Research &amp; AI/ML" />
+  <meta property="og:description" content="IIT Kanpur · Nomura Global Markets Quant (PPO) · AIR 1 Nomura Quant Challenge · LLMs, Deep RL &amp; Market Microstructure." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="nav-brand">
+        <span class="brand-mark">KM</span>
+        <span>Khush Maheshwari</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary Navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#competitions">Competitions</a>
+        <a href="#credentials">Achievements</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="Khush_Maheshwari_Resume.pdf" target="_blank" rel="noopener" class="nav-resume-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Resume
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle light/dark theme">
+          <svg id="iconMoon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg id="iconSun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero">
+      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="container hero-content">
+        <div class="hero-kicker">
+          <span class="kicker-dot"></span>
+          <span>IIT KANPUR &middot; NOMURA GLOBAL MARKETS (PPO) &middot; QUANT &amp; AI RESEARCH</span>
+        </div>
+
+        <h1 class="hero-title">Khush Maheshwari</h1>
+
+        <p class="hero-subtitle">
+          Final-year undergraduate at <strong>IIT Kanpur</strong> pursuing B.S. (Honours) in Economics with a Minor in Computer Science &amp; Engineering (AI/ML). I research <strong>eFX market-microstructure alphas</strong>, <strong>from-scratch foundation LLMs</strong>, and <strong>interpretable reinforcement learning</strong>.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="Khush_Maheshwari_Resume.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume (PDF)
+          </a>
+          <a href="https://github.com/Khush2831" target="_blank" rel="noopener" class="btn btn-secondary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/khush-maheshwari-031187274/" target="_blank" rel="noopener" class="btn btn-secondary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:khushmahes23@iitk.ac.in" class="btn btn-secondary" data-copy-email>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            khushmahes23@iitk.ac.in
+          </a>
+        </div>
+
+        <div class="metrics-strip">
+          <div class="metric-cell">
+            <div class="metric-val">AIR 1</div>
+            <div class="metric-label">Nomura Global Markets Quant Challenge (India)</div>
+          </div>
+          <div class="metric-cell">
+            <div class="metric-val">18 FX Pairs</div>
+            <div class="metric-label">eFX Liquidity Alpha deployed to live A/B testing</div>
+          </div>
+          <div class="metric-cell">
+            <div class="metric-val">3.63 Sharpe</div>
+            <div class="metric-label">Inter-IIT Tech Meet 13.0 Silver Medal (ETH)</div>
+          </div>
+          <div class="metric-cell">
+            <div class="metric-val">AIR 934 / 4</div>
+            <div class="metric-label">JEE Main (1M+) &amp; NMTC National Mathematics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WORK EXPERIENCE ==================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="section-num">01 / Experience</div>
+            <h2 class="section-title">Quantitative Research</h2>
+          </div>
+          <p class="section-desc">Researching short-horizon FX microstructure alpha, inventory-aware hedging PnL, and white-box RL regime analytics on a live global markets desk.</p>
+        </div>
+
+        <article class="exp-card reveal">
+          <div class="exp-top">
+            <div>
+              <h3 class="exp-role">Quantitative Research Intern</h3>
+              <div class="exp-org">
+                <span>Nomura Global Markets &middot; Algo-Strategies (eFX Quant)</span>
+                <span class="ppo-tag">Pre-Placement Offer</span>
+              </div>
+            </div>
+            <div class="exp-meta">
+              May 2026 &ndash; Jul 2026<br />
+              Mumbai, India
+            </div>
+          </div>
+
+          <div class="exp-kpi-bar">
+            <span class="kpi-chip"><strong>245 &rarr; 7</strong> Universal Features</span>
+            <span class="kpi-chip"><strong>&lt;1s</strong> Live Inference</span>
+            <span class="kpi-chip"><strong>450&times;</strong> Faster RL Tuning</span>
+            <span class="kpi-chip"><strong>100%</strong> Beat Benchmark (50 Seeds)</span>
+            <span class="kpi-chip"><strong>502K</strong> PPO Timesteps</span>
+          </div>
+
+          <div class="exp-pillars">
+            <div>
+              <h4 class="pillar-title">eFX Liquidity Alpha &amp; Production Hedging</h4>
+              <ul class="clean-list">
+                <li>Engineered <strong>short-horizon FX alpha features</strong> (multi-LP quote-skew z-scores, cross-LP consensus, Kyle&rsquo;s Lambda, Order Flow Imbalance) across 6 LPs and 5s&ndash;30s horizons, accelerating parameter tuning <strong>450&times; over grid search</strong> via an RL optimizer.</li>
+                <li>Built a sequential modeling pipeline reaching <strong>57.4% accuracy</strong> and distilled a <strong>7-feature model (&lt;1s inference)</strong> entering <strong>live A/B testing across 18 FX pairs</strong>, sustaining 55.5% rolling intraday accuracy (&gt;50% for 99%+ of trading time).</li>
+                <li>Resolved forward-fill zero-return label bias in 1s tick data and built an <strong>inventory &amp; hedging PnL simulator</strong>, proving <strong>hedge-cost savings</strong> that beat the incumbent hedging model in <strong>100% of 50-seed runs</strong> across Asian, London, and NY sessions.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="pillar-title">RL Regime Discovery &amp; Desk Analytics</h4>
+              <ul class="clean-list">
+                <li>Trained a <strong>PPO research agent</strong> over <strong>502K timesteps</strong> to jointly select LP, horizon, and trade/abstain decisions, uncovering conditional <strong>LP &times; Horizon &times; Regime edges</strong> missed by static analysis.</li>
+                <li>Engineered <strong>white-box RL interpretability</strong> using per-head attention probes, confidence calibration, and <strong>counterfactual decision logging</strong>, auto-generating 12 structured regime reports to turn policy behavior into testable desk hypotheses.</li>
+                <li>Built the interactive <strong>LP Data Explorer dashboard</strong> with Volatility &times; Consensus &times; Momentum regime search and live agent overlays, enabling eFX quants to visually audit signals and validate production rollout.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== KEY PROJECTS ==================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="section-num">02 / Selected Work</div>
+            <h2 class="section-title">Research &amp; Engineering Projects</h2>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+            <button class="filter-btn active" data-filter="all">All (5)</button>
+            <button class="filter-btn" data-filter="llm">LLMs &amp; NLP</button>
+            <button class="filter-btn" data-filter="rl">Deep RL</button>
+            <button class="filter-btn" data-filter="quant">Quant &amp; Systems</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: CS781 (Featured full-width card) -->
+          <article class="project-card featured reveal" data-category="llm">
+            <div>
+              <div class="project-top">
+                <div>
+                  <div class="project-date">Aug 2026 &ndash; Nov 2026</div>
+                  <h3 class="project-title">In-House Legal Foundation LLM Stack</h3>
+                  <div class="project-sub">CS781 Capstone Project &middot; Prof. Ashutosh Modi, IIT Kanpur</div>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Khush2831/CS781-REPOSITORY" target="_blank" rel="noopener" class="icon-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                    Code &amp; 7-Phase Results
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-metrics" style="margin: 14px 0 14px;">
+                <span class="proj-stat">4 Custom PyTorch Transformers</span>
+                <span class="proj-stat">4.5B-Token Corpus</span>
+                <span class="proj-stat">+3.1 pp vs Full FT (0.62% params)</span>
+                <span class="proj-stat">64M Student Wins 5/7 Phases</span>
+              </div>
+
+              <ul class="clean-list">
+                <li>Built a self-hosted <strong>legal foundation LLM stack</strong> from scratch in pure <code>torch.nn</code> (99M&ndash;124M params, custom 32k BPE tokenizer) on a <strong>4.5B-token corpus</strong> for confidential legal workflows with zero external APIs.</li>
+                <li>Adapted checkpoints across <strong>6 legal NLP tasks</strong> (NER, rhetorical roles, judgment prediction, statute ID, summarization, prior case retrieval) via <strong>LoRA / LoRMA+</strong>, beating full fine-tuning by <strong>+3.1 pp Macro-F1</strong> while updating only <strong>0.62% of parameters</strong>.</li>
+                <li>Distilled a <strong>64M student model (38% smaller)</strong> for low-latency local inference, winning <strong>5 of 7 benchmark phases</strong>, more than doubling BM25 on case retrieval (<code>0.2446</code> vs <code>0.1190</code> Micro-F1@7), and retaining 96% NER F1 via Viterbi decoding.</li>
+              </ul>
+
+              <div style="margin-top: 14px;">
+                <button class="drawer-toggle" id="cs781DrawerBtn" aria-expanded="false" aria-controls="cs781Drawer">
+                  View 7-Phase Benchmark Table &darr;
+                </button>
+                <div class="drawer-content" id="cs781Drawer">
+                  <table class="mini-table">
+                    <thead>
+                      <tr>
+                        <th>Phase</th>
+                        <th>Task</th>
+                        <th>Best Run</th>
+                        <th>Key Verified Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr><td>Phase 1</td><td>Legal LM Pretraining (4 Architectures)</td><td><code>run_lightweight</code></td><td><strong>0.8309 BERTScore F1</strong> (Official Codabench)</td></tr>
+                      <tr><td>Phase 2</td><td>Legal NER (12 entity classes)</td><td><code>decoder_full_v4</code> / <code>lightweight_kd_v3</code></td><td><strong>0.4805</strong> strict F1 (KD student: 0.4616)</td></tr>
+                      <tr><td>Phase 3</td><td>Rhetorical Role Prediction (CL &amp; IT)</td><td><code>lightweight_kd_kd_context2</code></td><td><strong>0.4411</strong> combined dev Macro-F1</td></tr>
+                      <tr><td>Phase 4</td><td>Court Judgment Prediction (CJPE)</td><td><code>lightweight_lorma_v1</code></td><td><strong>0.6823</strong> Macro-F1 (+3.1 pp vs Full FT)</td></tr>
+                      <tr><td>Phase 5</td><td>Statute Identification (Multi-label)</td><td><code>lightweight_kd_v1</code></td><td><strong>0.3835</strong> Macro-F1 / 0.4741 Micro-F1</td></tr>
+                      <tr><td>Phase 6</td><td>Legal Summarization (351 held-out docs)</td><td><code>decoder_lora_v1</code></td><td><strong>0.8392</strong> BERTScore F1 / 0.3379 ROUGE-1</td></tr>
+                      <tr><td>Phase 7</td><td>Prior Case Retrieval (118 queries)</td><td><code>lightweight_kd_v1</code></td><td><strong>0.2446</strong> Micro-F1@7 (2.06&times; BM25)</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">PyTorch</span>
+              <span class="tag">Custom BPE</span>
+              <span class="tag">LoRA / LoRMA+</span>
+              <span class="tag">Knowledge Distillation</span>
+              <span class="tag">BM25 + Dense Fusion</span>
+              <span class="tag">Viterbi Decoding</span>
+            </div>
+          </article>
+
+          <!-- Project 2: CS780 OBELIX -->
+          <article class="project-card reveal" data-category="rl">
+            <div>
+              <div class="project-top">
+                <div>
+                  <div class="project-date">Jan 2026 &ndash; May 2026</div>
+                  <h3 class="project-title">OBELIX: Autonomous Warehouse Robot</h3>
+                  <div class="project-sub">CS780 Capstone &middot; Prof. Ashutosh Modi, IIT Kanpur</div>
+                </div>
+                <div class="project-links">
+                  <button class="icon-pill" id="obelixDemoBtn" type="button">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    Demo
+                  </button>
+                  <a href="https://github.com/Khush2831/CS780-CAPSTONE-FINAL-" target="_blank" rel="noopener" class="icon-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                    Code
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-metrics" style="margin: 14px 0 14px;">
+                <span class="proj-stat">&minus;97.4% Wall Penalty (L1)</span>
+                <span class="proj-stat">&minus;51% Penalty (L2)</span>
+                <span class="proj-stat">Rank 11 Codabench</span>
+              </div>
+
+              <ul class="clean-list">
+                <li>Trained an autonomous robot from scratch in <strong>PyTorch</strong> to locate and push static, blinking, and moving boxes to the arena boundary using only <strong>18-bit sonar/IR sensors</strong> under sparse rewards.</li>
+                <li>Benchmarked <strong>15 RL agents</strong> (VPG, PPO, Dueling DDQN, Rainbow C51) and diagnosed <strong>wall&ndash;box sensor aliasing</strong> as the core failure mode, resolving it via <strong>Dueling DDQN + Prioritized Replay</strong>, temporal stuck/IR features, and action masking.</li>
+                <li>Cut wall-collision penalties by <strong>97.4%</strong> on static targets (&minus;49,651 PPO to <strong>&minus;1,294</strong>) and <strong>51%</strong> on blinking targets (&minus;4,486 to <strong>&minus;2,195</strong>), placing <strong>Rank 11</strong> on Level 1 on Codabench.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">PyTorch</span>
+              <span class="tag">Dueling DDQN</span>
+              <span class="tag">Prioritized Replay</span>
+              <span class="tag">POMDP</span>
+              <span class="tag">Action Masking</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Limit Order Book Simulator -->
+          <article class="project-card reveal" data-category="quant">
+            <div>
+              <div class="project-top">
+                <div>
+                  <div class="project-date">Dec 2024 &ndash; May 2025</div>
+                  <h3 class="project-title">Limit Order Book Simulator</h3>
+                  <div class="project-sub">Prof. Anirban Banerjee &middot; IIM Ahmedabad</div>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Khush2831/STOCK_LIMIT_ORDER_BOOK" target="_blank" rel="noopener" class="icon-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                    Code
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-metrics" style="margin: 14px 0 14px;">
+                <span class="proj-stat">10,000 Orders/Min</span>
+                <span class="proj-stat">Sub-2s Latency</span>
+                <span class="proj-stat">600+ IIMA Students</span>
+              </div>
+
+              <ul class="clean-list">
+                <li>Built a real-time <strong>Django</strong> financial Limit Order Book simulator supporting <strong>5+ order types</strong> with an admin dashboard for bulk user management and classroom market control.</li>
+                <li>Engineered a <strong>Redis</strong> backend with <strong>WebSockets</strong>, <strong>PostgreSQL</strong>, and JavaScript achieving sub-2s execution updates and <strong>10,000 orders/minute</strong> throughput.</li>
+                <li>Deployed in production as an active classroom trading platform revamping practical market-microstructure learning for <strong>600+ IIM Ahmedabad students</strong>.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">Django</span>
+              <span class="tag">Redis</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- Project 4: Arbitration Award Estimation using RAG -->
+          <article class="project-card reveal" data-category="llm">
+            <div>
+              <div class="project-top">
+                <div>
+                  <div class="project-date">Dec 2024 &ndash; Jul 2025</div>
+                  <h3 class="project-title">Arbitration Award Estimation using RAG</h3>
+                  <div class="project-sub">Prof. Anurag Agarwal &middot; IIM Ahmedabad</div>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Khush2831/Anurag-Agarwal-IIMA" target="_blank" rel="noopener" class="icon-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                    Code
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-metrics" style="margin: 14px 0 14px;">
+                <span class="proj-stat">2,000+ Entities (0.71 F1)</span>
+                <span class="proj-stat">MAE 12.65</span>
+                <span class="proj-stat">+65% Retrieval Speed</span>
+              </div>
+
+              <ul class="clean-list">
+                <li>Automated retrieval of <strong>50+ Indian infrastructure arbitration cases</strong> via Playwright and Google Search API (+65% efficiency), extracting <strong>2,000+ legal entities (0.71 F1)</strong> using <strong>DeepSeek RAG-NER</strong> and BERT.</li>
+                <li>Clustered <strong>1,200+ keywords</strong> into 6 infrastructure sectors via <strong>SBERT + k-means</strong> (+30% accuracy), achieving an arbitration award prediction <strong>MAE of 12.65</strong>.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">RAG</span>
+              <span class="tag">DeepSeek</span>
+              <span class="tag">BERT / SBERT</span>
+              <span class="tag">Playwright</span>
+              <span class="tag">Scikit-learn</span>
+            </div>
+          </article>
+
+          <!-- Project 5: Portfolio Management & Asset Pricing -->
+          <article class="project-card reveal" data-category="quant">
+            <div>
+              <div class="project-top">
+                <div>
+                  <div class="project-date">Sep 2024 &ndash; Apr 2025</div>
+                  <h3 class="project-title">Portfolio Management &amp; Asset Pricing</h3>
+                  <div class="project-sub">Prof. Wasim Ahmed &middot; IIT Kanpur</div>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/Khush2831/Portfolio-Management-and-Asset-Pricing-Analysis" target="_blank" rel="noopener" class="icon-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                    Code
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-metrics" style="margin: 14px 0 14px;">
+                <span class="proj-stat">Fama-French 3-Factor</span>
+                <span class="proj-stat">Bayesian Black-Litterman</span>
+                <span class="proj-stat">2 Live NLP Feeds</span>
+              </div>
+
+              <ul class="clean-list">
+                <li>Built a <strong>3-factor Fama-French</strong> and <strong>Bayesian Black-Litterman</strong> portfolio optimization engine combining market/size/value equilibrium priors with automated web-scraped fundamental health scores to encode quantitative investor views.</li>
+                <li>Engineered a <strong>real-time NLP sentiment pipeline</strong> across 2 live feeds (financial news &amp; social media) triggering dynamic weight recalibrations to lower estimation bias and enhance cross-asset diversification.</li>
+              </ul>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">Fama-French</span>
+              <span class="tag">Black-Litterman</span>
+              <span class="tag">NLP Sentiment</span>
+              <span class="tag">Python</span>
+              <span class="tag">Pandas / NumPy</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== COMPETITIONS ==================== -->
+    <section class="section" id="competitions">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="section-num">03 / Competitions</div>
+            <h2 class="section-title">Quantitative Trading &amp; M&amp;A Case Studies</h2>
+          </div>
+        </div>
+
+        <div class="comp-grid">
+          <article class="comp-card reveal">
+            <div class="project-top">
+              <div>
+                <div class="comp-award">Level 5 Distinction &middot; Jan 2026 &ndash; Mar 2026</div>
+                <h3 class="project-title">Harvard Global Case Competition</h3>
+                <div class="project-sub">Harvard University &middot; European Defense M&amp;A</div>
+              </div>
+            </div>
+            <div class="comp-row">
+              <span class="comp-row-label">Objective</span>
+              <span>Evaluate a <strong>&euro;92.6B Thales&ndash;Rheinmetall merger</strong> and formulate an M&amp;A roadmap for a pan-European defense champion.</span>
+            </div>
+            <div class="comp-row">
+              <span class="comp-row-label">Approach</span>
+              <span>Built DCF, peer-comps, and synergy models alongside Franco-German regulatory analysis, uncovering <strong>9&ndash;36% EPS dilution</strong> across merger scenarios.</span>
+            </div>
+            <div class="comp-row">
+              <span class="comp-row-label">Result</span>
+              <span>Recommended rejecting the merger in favor of a <strong>50&ndash;50 land-systems JV</strong> (&euro;750M&ndash;1B outlay) and <strong>&euro;1.2B TEKEVER acquisition</strong> (&euro;987M value creation, 5.6% profit uplift).</span>
+            </div>
+          </article>
+
+          <article class="comp-card reveal">
+            <div class="project-top">
+              <div>
+                <div class="comp-award">Silver Medal &middot; Oct 2024 &ndash; Dec 2024</div>
+                <h3 class="project-title">Inter-IIT Tech Meet 13.0</h3>
+                <div class="project-sub">UnTrade (Zelta Automations) &middot; High-Prep Problem Statement</div>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Khush2831/INTER-IIT-TECH-MEET-13.0" target="_blank" rel="noopener" class="icon-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+                  Code
+                </a>
+              </div>
+            </div>
+            <div class="comp-row">
+              <span class="comp-row-label">Objective</span>
+              <span>Build regime-adaptive alphas for <strong>BTC/USDT and ETH/USDT</strong> (2020&ndash;2023, 1&times; leverage), grounded in Hurst (<em>H</em> = 0.62/0.59), ADF, and Wavelet Coherence tests.</span>
+            </div>
+            <div class="comp-row">
+              <span class="comp-row-label">Approach</span>
+              <span>Engineered a <strong>100-candle Alternating Framework</strong> switching across Keltner + 29.8-day cycle, <strong>GPSO-tuned Hawkes volatility</strong> (50 regimes), and Fibonacci bands with ATR/holiday risk controls.</span>
+            </div>
+            <div class="comp-row">
+              <span class="comp-row-label">Result</span>
+              <span>Achieved <strong>3.63 Sharpe / 12.18% Max DD</strong> (ETH) and <strong>2.55 Sharpe / 22.87% Max DD</strong> (BTC) net of fees, plus 2024 out-of-sample outperformance on DOGE and LTC.</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CREDENTIALS ==================== -->
+    <section class="section" id="credentials">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="section-num">04 / Credentials</div>
+            <h2 class="section-title">Achievements, Education &amp; Stack</h2>
+          </div>
+        </div>
+
+        <div class="cred-grid">
+          <!-- Scholastic Achievements -->
+          <div class="panel reveal">
+            <h3 class="panel-heading">Scholastic Achievements</h3>
+            <ul class="ach-list">
+              <li class="ach-item">
+                <span class="ach-rank">AIR 1</span>
+                <span class="ach-desc"><strong>Nomura Global Markets Quant Challenge</strong> (India), earning a direct internship offer</span>
+              </li>
+              <li class="ach-item">
+                <span class="ach-rank">AIR 934</span>
+                <span class="ach-desc"><strong>JEE Main 2023</strong> (1M+ candidates) &amp; <strong>AIR 2831</strong> in <strong>JEE Advanced 2023</strong></span>
+              </li>
+              <li class="ach-item">
+                <span class="ach-rank">AIR 4</span>
+                <span class="ach-desc"><strong>National Mathematics Talent Contest 2022</strong> among 30,000+ applicants nationwide</span>
+              </li>
+              <li class="ach-item">
+                <span class="ach-rank">AIR 584</span>
+                <span class="ach-desc"><strong>KVPY 2021</strong>, awarded the KVPY Fellowship by <strong>IISc Bangalore</strong></span>
+              </li>
+              <li class="ach-item">
+                <span class="ach-rank">INMO / Top 30</span>
+                <span class="ach-desc">Qualified for <strong>INMO</strong>, placing Top 30 in Rajasthan in <strong>IOQM 2022&ndash;23</strong> (100,000+ participants)</span>
+              </li>
+              <li class="ach-item">
+                <span class="ach-rank">1555 Max</span>
+                <span class="ach-desc"><strong>Specialist</strong> rating on <strong>Codeforces</strong></span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Education, Courses & Skills -->
+          <div class="panel reveal">
+            <h3 class="panel-heading">Education &amp; Technical Stack</h3>
+
+            <div class="edu-block">
+              <div class="edu-school">Indian Institute of Technology Kanpur</div>
+              <div class="edu-degree">B.S. (Honours) Economics &middot; Minor in CSE (AI / ML)</div>
+              <div class="edu-meta">
+                <span>2023 &ndash; 2027</span>
+                <span>CPI: <strong>8.7 / 10</strong></span>
+              </div>
+            </div>
+
+            <div class="skill-group-title">Relevant Coursework</div>
+            <div class="course-grid">
+              <span class="course-chip">Large Language Models</span>
+              <span class="course-chip">Deep Reinforcement Learning</span>
+              <span class="course-chip">Data Structures &amp; Algorithms</span>
+              <span class="course-chip">Probability &amp; Statistics</span>
+              <span class="course-chip">Econometrics I &amp; II</span>
+              <span class="course-chip">Financial Econometrics</span>
+              <span class="course-chip">Game Theory</span>
+              <span class="course-chip">Macroeconomics</span>
+              <span class="course-chip">Ordinary Differential Equations</span>
+            </div>
+
+            <div class="skill-group">
+              <div class="skill-group-title">Languages &amp; Tools</div>
+              <div class="skill-group-items">Python, C/C++, SQL, JavaScript, Git, Linux, Playwright, WebSockets</div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-title">Libraries &amp; Systems</div>
+              <div class="skill-group-items">PyTorch, HuggingFace, Scikit-learn, NumPy, Pandas, Django, Redis, PostgreSQL</div>
+            </div>
+            <div class="skill-group">
+              <div class="skill-group-title">Quant &amp; AI Methods</div>
+              <div class="skill-group-items">LLMs (LoRA, LoRMA+, Distillation), Deep RL (Dueling DDQN, PPO, C51), RAG/NLP, Hawkes Volatility, Fama-French, Black-Litterman, Valuation &amp; M&amp;A</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LEADERSHIP ==================== -->
+    <section class="section" id="leadership">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <div class="section-num">05 / Leadership</div>
+            <h2 class="section-title">Positions of Responsibility</h2>
+          </div>
+        </div>
+
+        <div class="lead-grid">
+          <article class="lead-card reveal">
+            <div class="lead-head">
+              <h3 class="lead-title">Head of Public Relations, Udghosh</h3>
+              <span class="project-date">Apr 2026 &ndash; Present</span>
+            </div>
+            <div class="lead-sub">Annual Sports Festival, IIT Kanpur</div>
+            <ul class="clean-list">
+              <li>Led an <strong>80+ member, 4-tier committee</strong> managing a <strong>&#8377;70L budget</strong>, securing <strong>&#8377;1M</strong> via corporate partnerships (+160% YoY sponsorship) and driving <strong>200% participation growth</strong>.</li>
+              <li>Expanded audience reach beyond <strong>100,000+ (+20% engagement)</strong>, hosting international sportspersons and a thought-leadership series with national media coverage.</li>
+            </ul>
+          </article>
+
+          <article class="lead-card reveal">
+            <div class="lead-head">
+              <h3 class="lead-title">Convener, Council of Cells&rsquo; Affairs (CoCA)</h3>
+              <span class="project-date">May 2026 &ndash; Present</span>
+            </div>
+            <div class="lead-sub">Students&rsquo; Gymkhana, IIT Kanpur</div>
+            <ul class="clean-list">
+              <li>Coordinated <strong>6 Gymkhana Cells</strong>, aligning <strong>15+ student leaders</strong>, faculty, and institute administration to oversee <strong>50+ campus programs</strong>.</li>
+              <li>Institutionalized cross-cell collaboration frameworks and flagship events, impacting <strong>10,000+ students</strong> across orientations and institute festivals.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div>
+            <h2 class="contact-title">Let&rsquo;s connect</h2>
+            <p class="contact-sub">Open to discussions on quantitative research, market microstructure, foundation models, and reinforcement learning.</p>
+          </div>
+          <div class="contact-actions">
+            <a href="mailto:khushmahes23@iitk.ac.in" class="btn btn-primary" data-copy-email>Copy Email</a>
+            <a href="https://www.linkedin.com/in/khush-maheshwari-031187274/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+            <a href="https://github.com/Khush2831" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+            <a href="Khush_Maheshwari_Resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary">Resume PDF</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Khush Maheshwari &middot; IIT Kanpur</span>
+      <span>khushmahes23@iitk.ac.in &middot; +91 8949036446</span>
+    </div>
+  </footer>
+
+  <!-- YouTube Demo Modal (OBELIX) -->
+  <div class="modal-backdrop" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle">
+    <div class="modal-box">
+      <div class="modal-head">
+        <span class="modal-title" id="videoModalTitle">OBELIX: Autonomous Warehouse Robot &mdash; Live Demo</span>
+        <button class="modal-close" id="modalClose" aria-label="Close video">&times;</button>
+      </div>
+      <div class="video-wrap">
+        <iframe id="videoFrame" title="OBELIX Demo Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
